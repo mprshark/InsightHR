@@ -28,13 +28,34 @@ Upload your data → Get predictions → Understand your workforce.
 ## 📂 Project Structure
 
 ```txt
-HR-Analytics-Webapp/
-├── first_ml_class.py        # ML logic (training / preprocessing)
-├── hrapptry.py              # Main webapp (entrypoint)
-├── hr.pkl                   # Trained ML model
-├── schr.pkl                 # Scaler / encoder
-├── requirements.txt         # Dependencies
-└── README.md                # Documentation
+InsightHR/
+│
+├── app/
+│   ├── main.py
+│   ├── ml/
+│   │   ├── pipeline.py
+│   │   ├── model.pkl
+│   │   └── scaler.pkl
+│   ├── routes/
+│   │   └── .gitkeep
+│   ├── utils/
+│   │   └── .gitkeep
+│
+├── dist/
+│   └── index.html
+│
+├── notebooks/
+│   └── .gitkeep
+│
+├── data/
+│   └── .gitkeep
+│
+├── tests/
+│   └── .gitkeep
+│
+├── requirements.txt
+└── README.md
+
 ````
 
 ---
