@@ -4,8 +4,7 @@ import pickle
 import numpy as np
 
 # Load the trained XGBoost model and scaler
-with open('hr.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
+with open('app/ml/model.pkl', 'rb') as model_file:
 
 with open('schr.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
