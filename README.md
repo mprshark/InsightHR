@@ -125,7 +125,3 @@ Crafting automation + AI projects with style.
 ## ⭐ Like this project?
 
 Give it a star. It keeps the shark swimming 🦈💫
-
-```
-
----
