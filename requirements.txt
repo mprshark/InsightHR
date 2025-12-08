@@ -1,7 +1,8 @@
-numpy>=2.0.0
-pandas>=2.1.0
-scikit-learn>=1.4
+numpy
+pandas
+scikit-learn
 xgboost
 matplotlib
 streamlit
 joblib
+
